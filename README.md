@@ -1,6 +1,6 @@
-![pop](https://github.com/facebook/pop/blob/master/Images/pop.gif?raw=true)
+pop](https://github.com/facebook/pop/blob/master/Images/pop.gif?raw=true)
 
-Pop is an extensible animation engine for iOS, tvOS, and OS X. In addition to basic static animations, it supports spring and decay dynamic animations, making it useful for building realistic, physics-based interactions. The API allows quick integration with existing Objective-C or Swift codebases and enables the animation of any property on any object. It's a mature and well-tested framework that drives all the animations and transitions in [Paper](https://en.wikipedia.org/wiki/Facebook_Paper).
+Pop is![ an extensible animation engine for iOS, tvOS, and OS X. In addition to basic static animations, it supports spring and decays dynamic animations, making it useful for building realistic, physics-based interactions. The API allows quick integration with existing Objective-C or Swift codebases and enables the animation of any property on any object. It's a mature and well-tested framework that drives all the animations and transitions in [Paper](https://en.wikipedia.org/wiki/Facebook_Paper).
 
 [![Build Status](https://travis-ci.org/facebook/pop.svg)](https://travis-ci.org/facebook/pop)
 
@@ -157,7 +157,7 @@ if let anim = POPDecayAnimation(propertyNamed: kPOPLayerPositionX) {
 }
 ```
 
-Basic animations can be used to interpolate values over a specified time period. To use an ease-in ease-out animation to animate a view's alpha from 0.0 to 1.0 over the default duration:
+Basic animations can be used to interpolate values over a specified time. To use an ease-in ease-out animation to animate a view's alpha from 0.0 to 1.0 over the default duration:
 
 #### Objective-C
 
@@ -203,7 +203,7 @@ if let property = POPAnimatableProperty.property(withName: kPOPLayerBounds) as? 
 }
 ```
 
-The framework provides many common layer and view animatable properties out of box. You can animate a custom property by creating a new instance of the class. In this example, we declare a custom volume property:
+The framework provides many common layers and views animatable properties out of the box. You can animate a custom property by creating a new instance of the class. In this example, we declare a custom volume property:
 
 #### Objective-C
 
@@ -254,7 +254,7 @@ if let prop = POPAnimatableProperty.property(withName: "com.foo.radio.volume", i
 }
 ```
 
-For a complete listing of provided animatable properties, as well more information on declaring custom properties see `POPAnimatableProperty.h`.
+For a complete listing of provided inimitable properties, as well more information on declaring custom properties see `POPAnimatableProperty.h`.
 
 
 ### Debugging
@@ -308,7 +308,7 @@ Assuming CocoaPods is installed, this will include the necessary OCMock dependen
 
 ## SceneKit
 
-Due to SceneKit requiring iOS 8 and OS X 10.9, POP's SceneKit extensions aren't provided out of box. Unfortunately, [weakly linked frameworks](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WeakLinking.html) cannot be used due to issues mentioned in the [Xcode 6.1 Release Notes](https://developer.apple.com/library/ios/releasenotes/DeveloperTools/RN-Xcode/Chapters/xc6_release_notes.html).
+Due to SceneKit requiring iOS 8 and OS X 10.9, POP's SceneKit extensions aren't provided out of the box. Unfortunately, [weakly linked frameworks](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WeakLinking.html) cannot be used due to issues mentioned in the [Xcode 6.1 Release Notes](https://developer.apple.com/library/ios/releasenotes/DeveloperTools/RN-Xcode/Chapters/xc6_release_notes.html).
 
 To remedy this, you can easily opt-in to use SceneKit! Simply add this to the Preprocessor Macros section of your Xcode Project:
 
@@ -338,4 +338,4 @@ See the CONTRIBUTING file for how to help out.
 
 ## License
 
-Pop is released under a BSD License. See LICENSE file for details.
+Pop is released under a BSD License. See the LICENSE file for details.
